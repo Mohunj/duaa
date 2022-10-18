@@ -1,0 +1,21 @@
+ @-moz-document url-prefix() {
+                h1 {
+                    color: green;
+                    font-size: 34px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 24px;
+                    text-align: center;
+                }
+            }
+            .dua_title{
+                color:#666600;
+            }
+            .duaa_text{
+                color:#EA047E;
+            }
+            .duaa_text::first-line{
+                text-align: center;
+                color: #FFA351;
+            }
