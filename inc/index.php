@@ -24,7 +24,7 @@
 <?php
 $conn =new mysqli(DB_HOST, DB_USER, DB_PASSWORD , DB_NAME);
 $query = '';
-$sqlScript=file(plugins_url('duaa-1/inc/wp_duaa.sql'));
+$sqlScript=file(plugins_url('duaa/inc/wp_duaa.sql'));
 
 //$sqlScript =file('http://moh.loc/wp/wp-content/plugins/duaa/inc/wp_duaa.sql');
 if($sqlScript){
