@@ -31,7 +31,7 @@ function get_duaa(){
           $table="wp_duaa";
           require "config.php";
  
-         if ( is_page($page_id) )  {
+         if ( is_page($duaa_id_last) )  {
        
          $sql = "SHOW TABLES LIKE '".$table."'";
 
